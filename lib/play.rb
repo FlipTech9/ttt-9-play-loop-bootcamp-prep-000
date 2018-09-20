@@ -42,7 +42,7 @@ def play(board)
   
   until play_counter == 9 
   turn(board)
-  
+  play_counter +=1 
   end
 
 end 
